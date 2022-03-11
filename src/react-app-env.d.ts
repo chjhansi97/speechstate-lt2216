@@ -48,6 +48,10 @@ interface SDSContext {
     celebname: string;
     user: string;
     abstract: string;
+    help: string;
+    count: number;
+    threshold: number;
+    intent: string;
 }
 
 type SDSEvent =
